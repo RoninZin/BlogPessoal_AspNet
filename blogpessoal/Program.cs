@@ -68,7 +68,7 @@ namespace blogpessoal
             }
 
             //Inicializa o Cors
-            app.UseCors("MyPolice");
+            app.UseCors("MyPolicy");
 
             app.UseAuthorization();
 
